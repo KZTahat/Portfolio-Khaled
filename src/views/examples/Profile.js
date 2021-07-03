@@ -108,7 +108,7 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
+                          <span className="heading">40</span>
                           <span className="description">Friends</span>
                         </div>
                         <div>
@@ -116,7 +116,7 @@ class Profile extends React.Component {
                           <span className="description">Photos</span>
                         </div>
                         <div>
-                          <span className="heading">89</span>
+                          <span className="heading">109</span>
                           <span className="description">Comments</span>
                         </div>
                       </div>
@@ -133,22 +133,18 @@ class Profile extends React.Component {
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Biomedical Engineer - Web Developer
+                      Biomedical Engineer - Yarmouk University
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      Yarmouk University
+                      Web Developer - LTUC-ASAC
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        I seek to further develop my skills set through securing a position in the biomedical industry or in website development feild where I can bring immediate and strategic value. As a self-motivated individual with good communication skills and leadership qualities, I have the ability to motivate my team members and help them bring out their best.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
@@ -158,6 +154,16 @@ class Profile extends React.Component {
                   </div>
                 </div>
               </Card>
+              {/* 201 final project with description card */}
+              <Card style={{ width: '22rem', margin: '30px'}} className='cards'>
+                <h1 style={{margin: '10px'}}>201 Final Project</h1>
+                {/* <img variant="top" src='assets/img/theme/Art-House.png'/> */}
+                  <h2 style={{margin: '10px'}}>Art House</h2>
+                  <p style={{margin: '10px'}}>
+                  In art, there are many categories were one can be passionate with (painting, wood crafting, photographing), and then we have freelancers who have their good art work but they have no place to show their own work collections, so we wanted to help them by creating Art-House website which is basically an E-commerce website that provides them a place to display their collections.
+                  </p>
+                <Button href='https://merge-confilicts.github.io/art-house/'>Check out the Website</Button>
+                </Card>
             </Container>
           </section>
         </main>

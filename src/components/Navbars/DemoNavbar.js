@@ -114,7 +114,7 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Examples</span>
+                      <span className="nav-link-inner--text">Menu</span>
                     </DropdownToggle>
                     <DropdownMenu>
                       <DropdownItem to="/landing-page" tag={Link}>
@@ -152,6 +152,22 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
+                      href="https://www.linkedin.com/in/khaled-tahat-1839211b2/"
+                      id="tooltip112445450"
+                      target="_blank"
+                    >
+                      <i className="fa fa-linkedin" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                      Linkedin
+                      </span>
+                    </NavLink>
+                    <UncontrolledTooltip delay={0} target="tooltip112445450">
+                      connect with linkedin
+                    </UncontrolledTooltip>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
                       href="https://www.instagram.com/kztahat96/"
                       id="tooltip356693867"
                       target="_blank"
@@ -180,21 +196,6 @@ class DemoNavbar extends React.Component {
                     <UncontrolledTooltip delay={0} target="tooltip112445449">
                       Star us on Github
                     </UncontrolledTooltip>
-                  </NavItem>
-                  <NavItem className="d-none d-lg-block ml-lg-4">
-                    <Button
-                      className="btn-neutral btn-icon"
-                      color="default"
-                      href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-navbar"
-                      target="_blank"
-                    >
-                      <span className="btn-inner--icon">
-                        <i className="fa fa-cloud-download mr-2" />
-                      </span>
-                      <span className="nav-link-inner--text ml-1">
-                        Download
-                      </span>
-                    </Button>
                   </NavItem>
                 </Nav>
               </UncontrolledCollapse>
