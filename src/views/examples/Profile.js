@@ -71,7 +71,7 @@ class Profile extends React.Component {
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">
                       <div className="card-profile-image">
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
                           <img
                             alt="..."
                             className="rounded-circle"
@@ -89,7 +89,7 @@ class Profile extends React.Component {
                           className="mr-4"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                           size="sm"
                         >
                           Connect
@@ -98,7 +98,7 @@ class Profile extends React.Component {
                           className="float-right"
                           color="default"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                           size="sm"
                         >
                           Message
@@ -106,20 +106,6 @@ class Profile extends React.Component {
                       </div>
                     </Col>
                     <Col className="order-lg-1" lg="4">
-                      <div className="card-profile-stats d-flex justify-content-center">
-                        <div>
-                          <span className="heading">40</span>
-                          <span className="description">Friends</span>
-                        </div>
-                        <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
-                        </div>
-                        <div>
-                          <span className="heading">109</span>
-                          <span className="description">Comments</span>
-                        </div>
-                      </div>
                     </Col>
                   </Row>
                   <div className="text-center mt-5">
@@ -137,33 +123,26 @@ class Profile extends React.Component {
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      Web Developer - LTUC-ASAC
+                      Front-End Developer - LTUC-ASAC
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                        I seek to further develop my skills set through securing a position in the biomedical industry or in website development feild where I can bring immediate and strategic value. As a self-motivated individual with good communication skills and leadership qualities, I have the ability to motivate my team members and help them bring out their best.
+                          I seek to further develop my skills set through
+                          securing a position in the biomedical industry or in
+                          website development feild where I can bring immediate
+                          and strategic value. As a self-motivated individual
+                          with good communication skills and leadership
+                          qualities, I have the ability to motivate my team
+                          members and help them bring out their best.
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
-                          Show more
-                        </a>
                       </Col>
                     </Row>
                   </div>
                 </div>
               </Card>
-              {/* 201 final project with description card */}
-              <Card style={{ width: '22rem', margin: '30px'}} className='cards'>
-                <h1 style={{margin: '10px'}}>201 Final Project</h1>
-                {/* <img variant="top" src='assets/img/theme/Art-House.png'/> */}
-                  <h2 style={{margin: '10px'}}>Art House</h2>
-                  <p style={{margin: '10px'}}>
-                  In art, there are many categories were one can be passionate with (painting, wood crafting, photographing), and then we have freelancers who have their good art work but they have no place to show their own work collections, so we wanted to help them by creating Art-House website which is basically an E-commerce website that provides them a place to display their collections.
-                  </p>
-                <Button href='https://merge-confilicts.github.io/art-house/'>Check out the Website</Button>
-                </Card>
             </Container>
           </section>
         </main>
